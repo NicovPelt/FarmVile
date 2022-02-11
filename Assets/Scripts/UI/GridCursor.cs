@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,6 +33,7 @@ public class GridCursor : MonoBehaviour
         grid = GameObject.FindObjectOfType<Grid>();
 
         ItemUseGridRadius = 2; //TODO: REMOVE
+        EnableCursor(); //TODO: REMOVE
     }
 
     private void Update()
